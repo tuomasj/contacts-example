@@ -1,0 +1,14 @@
+<h1>All Contacts</h1>
+<% if @contacts.length: %>
+  <table>
+  <% for contact in @contacts: %>
+    <tr>
+      <td><%= contact.name %></td>
+      <td><%= contact.phonenumber %></td>
+    </tr>
+  <% end %>
+  </table>
+<% else: %>
+No contacts
+<% end %>
+<button class="new-contact">Add New Contact</button>

@@ -1,0 +1,11 @@
+<h1>New Contact</h1>
+<form action="/" method="">
+  <label for="name">Name</label>
+  <input type="text" name="name" />
+  <br>
+  <label for="phonenumber">Phonenumber</label>
+  <input type="number" name="phonenumber" />
+  <br>
+  <a href="/" class="cancel">Cancel</a>
+  <input type="submit" value="Create contact" DISABLED />
+</form>
